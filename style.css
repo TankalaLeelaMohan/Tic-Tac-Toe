@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: #61A0AF;
+    /* background-color: #8ACB88; */
+}   
+
+.title{
+    font-size: 23px;
+}
+
+.gamecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* border: solid; */
+    gap: 1.5vmin;
+}
+
+.playerX,.playerO{
+    width:60vmin;
+    height: 60vmin;
+    /* border: solid; */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.pbtnX,.pbtnO{
+    height: 6vmin;
+    width: 13vmin;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.tictactoe{
+    width: 60vmin;
+    height: 60vmin;
+    /* border: solid;  */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btnpar{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    width:60vmin;
+    height: 60vmin;
+    gap:1rem; 
+}
+
+.btn{
+    height: 16vmin;
+    width: 16vmin;
+    border: none;
+    border-radius: 10px;
+    font-size: 10vmin;
+    /* background-color: #B3C5D7; */
+     /* background-color: #61A0AF; */
+     background-color: #F4F4ED;
+}
+
+.rstbtn{
+    height: 6vmin;
+    width: 13vmin;
+    margin-top: 6px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.winner{
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.newgamebtn{
+    height: 7vmin;
+    width: 17vmin;
+    margin-top: 6px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.currplayercolor{
+    background-color: #8ACB88;
+}
